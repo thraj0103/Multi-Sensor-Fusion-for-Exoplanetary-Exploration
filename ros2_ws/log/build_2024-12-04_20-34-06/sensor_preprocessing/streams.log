@@ -1,0 +1,49 @@
+[1.003s] Invoking command in '/home/varun/ros2_ws/src/sensor_preprocessing': PYTHONPATH=/home/varun/ros2_ws/build/sensor_preprocessing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor_preprocessing build --build-base /home/varun/ros2_ws/build/sensor_preprocessing/build install --record /home/varun/ros2_ws/build/sensor_preprocessing/install.log --single-version-externally-managed install_data
+[1.263s] running egg_info
+[1.263s] creating ../../build/sensor_preprocessing/sensor_preprocessing.egg-info
+[1.263s] writing ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/PKG-INFO
+[1.263s] writing dependency_links to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/dependency_links.txt
+[1.264s] writing entry points to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/entry_points.txt
+[1.264s] writing requirements to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/requires.txt
+[1.264s] writing top-level names to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/top_level.txt
+[1.264s] writing manifest file '../../build/sensor_preprocessing/sensor_preprocessing.egg-info/SOURCES.txt'
+[1.267s] reading manifest file '../../build/sensor_preprocessing/sensor_preprocessing.egg-info/SOURCES.txt'
+[1.267s] writing manifest file '../../build/sensor_preprocessing/sensor_preprocessing.egg-info/SOURCES.txt'
+[1.267s] running build
+[1.268s] running build_py
+[1.268s] creating /home/varun/ros2_ws/build/sensor_preprocessing/build
+[1.268s] creating /home/varun/ros2_ws/build/sensor_preprocessing/build/lib
+[1.268s] creating /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+[1.268s] copying sensor_preprocessing/camera_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+[1.268s] copying sensor_preprocessing/__init__.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+[1.269s] copying sensor_preprocessing/imu_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+[1.269s] copying sensor_preprocessing/odometry_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+[1.269s] copying sensor_preprocessing/lidar_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+[1.269s] running install
+[1.269s] running install_lib
+[1.269s] creating /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+[1.270s] copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/camera_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+[1.270s] copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/__init__.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+[1.270s] copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/imu_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+[1.271s] copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/odometry_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+[1.271s] copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/lidar_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+[1.271s] byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/camera_preprocessing.py to camera_preprocessing.cpython-310.pyc
+[1.271s] byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/__init__.py to __init__.cpython-310.pyc
+[1.271s] byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/imu_preprocessing.py to imu_preprocessing.cpython-310.pyc
+[1.272s] byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/odometry_preprocessing.py to odometry_preprocessing.cpython-310.pyc
+[1.272s] byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/lidar_preprocessing.py to lidar_preprocessing.cpython-310.pyc
+[1.272s] running install_data
+[1.272s] creating /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index
+[1.272s] creating /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index/resource_index
+[1.272s] creating /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index/resource_index/packages
+[1.272s] copying resource/sensor_preprocessing -> /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index/resource_index/packages
+[1.272s] copying package.xml -> /home/varun/ros2_ws/install/sensor_preprocessing/share/sensor_preprocessing
+[1.272s] running install_egg_info
+[1.274s] Copying ../../build/sensor_preprocessing/sensor_preprocessing.egg-info to /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing-0.0.0-py3.10.egg-info
+[1.275s] running install_scripts
+[1.294s] Installing camera_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+[1.294s] Installing imu_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+[1.295s] Installing lidar_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+[1.295s] Installing odom_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+[1.295s] writing list of installed files to '/home/varun/ros2_ws/build/sensor_preprocessing/install.log'
+[1.310s] Invoked command in '/home/varun/ros2_ws/src/sensor_preprocessing' returned '0': PYTHONPATH=/home/varun/ros2_ws/build/sensor_preprocessing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/sensor_preprocessing build --build-base /home/varun/ros2_ws/build/sensor_preprocessing/build install --record /home/varun/ros2_ws/build/sensor_preprocessing/install.log --single-version-externally-managed install_data

@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/catchall_py_pkg/catchall_py_pkg.egg-info
+writing ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/requires.txt
+writing top-level names to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/top_level.txt
+writing manifest file '../../build/catchall_py_pkg/catchall_py_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/catchall_py_pkg/catchall_py_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/catchall_py_pkg/catchall_py_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/varun/ros2_ws/build/catchall_py_pkg/build
+creating /home/varun/ros2_ws/build/catchall_py_pkg/build/lib
+creating /home/varun/ros2_ws/build/catchall_py_pkg/build/lib/catchall_py_pkg
+copying catchall_py_pkg/turtle_controller.py -> /home/varun/ros2_ws/build/catchall_py_pkg/build/lib/catchall_py_pkg
+copying catchall_py_pkg/__init__.py -> /home/varun/ros2_ws/build/catchall_py_pkg/build/lib/catchall_py_pkg
+copying catchall_py_pkg/turtle_spawner.py -> /home/varun/ros2_ws/build/catchall_py_pkg/build/lib/catchall_py_pkg
+running install
+running install_lib
+creating /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg
+copying /home/varun/ros2_ws/build/catchall_py_pkg/build/lib/catchall_py_pkg/turtle_controller.py -> /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg
+copying /home/varun/ros2_ws/build/catchall_py_pkg/build/lib/catchall_py_pkg/__init__.py -> /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg
+copying /home/varun/ros2_ws/build/catchall_py_pkg/build/lib/catchall_py_pkg/turtle_spawner.py -> /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg
+byte-compiling /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg/turtle_controller.py to turtle_controller.cpython-310.pyc
+byte-compiling /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg/turtle_spawner.py to turtle_spawner.cpython-310.pyc
+running install_data
+creating /home/varun/ros2_ws/install/catchall_py_pkg/share/ament_index
+creating /home/varun/ros2_ws/install/catchall_py_pkg/share/ament_index/resource_index
+creating /home/varun/ros2_ws/install/catchall_py_pkg/share/ament_index/resource_index/packages
+copying resource/catchall_py_pkg -> /home/varun/ros2_ws/install/catchall_py_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/varun/ros2_ws/install/catchall_py_pkg/share/catchall_py_pkg
+running install_egg_info
+Copying ../../build/catchall_py_pkg/catchall_py_pkg.egg-info to /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing turtle_controller script to /home/varun/ros2_ws/install/catchall_py_pkg/lib/catchall_py_pkg
+Installing turtle_spawner script to /home/varun/ros2_ws/install/catchall_py_pkg/lib/catchall_py_pkg
+writing list of installed files to '/home/varun/ros2_ws/build/catchall_py_pkg/install.log'

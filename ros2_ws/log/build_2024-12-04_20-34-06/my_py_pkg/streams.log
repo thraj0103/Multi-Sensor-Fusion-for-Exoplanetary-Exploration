@@ -1,0 +1,56 @@
+[0.988s] Invoking command in '/home/varun/ros2_ws/src/my_py_pkg': PYTHONPATH=/home/varun/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/varun/ros2_ws/build/my_py_pkg/build install --record /home/varun/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[1.245s] running egg_info
+[1.246s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[1.246s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[1.246s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[1.246s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[1.246s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[1.246s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[1.246s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.247s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.248s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[1.249s] running build
+[1.249s] running build_py
+[1.249s] creating /home/varun/ros2_ws/build/my_py_pkg/build
+[1.249s] creating /home/varun/ros2_ws/build/my_py_pkg/build/lib
+[1.249s] creating /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.249s] copying my_py_pkg/robot_news_station.py -> /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.250s] copying my_py_pkg/smartphone.py -> /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.250s] copying my_py_pkg/__init__.py -> /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.250s] copying my_py_pkg/add_two_ints_server.py -> /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.250s] copying my_py_pkg/first_node.py -> /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.250s] copying my_py_pkg/node_template.py -> /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.250s] copying my_py_pkg/add_two_ints_client.py -> /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[1.250s] running install
+[1.250s] running install_lib
+[1.251s] creating /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.251s] copying /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.251s] copying /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.251s] copying /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.251s] copying /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.251s] copying /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/first_node.py -> /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.252s] copying /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/node_template.py -> /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.252s] copying /home/varun/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[1.252s] byte-compiling /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[1.253s] byte-compiling /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[1.253s] byte-compiling /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[1.253s] byte-compiling /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[1.254s] byte-compiling /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/first_node.py to first_node.cpython-310.pyc
+[1.254s] byte-compiling /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/node_template.py to node_template.cpython-310.pyc
+[1.254s] byte-compiling /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[1.254s] running install_data
+[1.255s] creating /home/varun/ros2_ws/install/my_py_pkg/share/ament_index
+[1.255s] creating /home/varun/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[1.255s] creating /home/varun/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.255s] copying resource/my_py_pkg -> /home/varun/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[1.255s] copying package.xml -> /home/varun/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[1.255s] running install_egg_info
+[1.257s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[1.258s] running install_scripts
+[1.277s] Installing add_two_ints_client script to /home/varun/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.277s] Installing add_two_ints_server script to /home/varun/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.277s] Installing first_node_installed script to /home/varun/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.277s] Installing robot_news_station script to /home/varun/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.277s] Installing smartphone script to /home/varun/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[1.278s] writing list of installed files to '/home/varun/ros2_ws/build/my_py_pkg/install.log'
+[1.290s] Invoked command in '/home/varun/ros2_ws/src/my_py_pkg' returned '0': PYTHONPATH=/home/varun/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/varun/ros2_ws/build/my_py_pkg/build install --record /home/varun/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

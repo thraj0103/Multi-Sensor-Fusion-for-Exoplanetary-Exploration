@@ -1,0 +1,22 @@
+[0.631s] Invoking command in '/home/varun/ros2_ws/src/catchall_py_pkg': CMAKE_PREFIX_PATH=/home/varun/ros2_ws/install/catchall_interfaces:/home/varun/ros2_ws/install/my_robot_interfaces:/home/varun/ros2_ws/install/my_robot_bringup LD_LIBRARY_PATH=/home/varun/ros2_ws/install/catchall_interfaces/lib:/home/varun/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/varun/ros2_ws/build/catchall_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/catchall_py_pkg build --build-base /home/varun/ros2_ws/build/catchall_py_pkg/build install --record /home/varun/ros2_ws/build/catchall_py_pkg/install.log --single-version-externally-managed install_data
+[0.871s] running egg_info
+[0.871s] writing ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/PKG-INFO
+[0.872s] writing dependency_links to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/dependency_links.txt
+[0.872s] writing entry points to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/entry_points.txt
+[0.872s] writing requirements to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/requires.txt
+[0.872s] writing top-level names to ../../build/catchall_py_pkg/catchall_py_pkg.egg-info/top_level.txt
+[0.874s] reading manifest file '../../build/catchall_py_pkg/catchall_py_pkg.egg-info/SOURCES.txt'
+[0.874s] writing manifest file '../../build/catchall_py_pkg/catchall_py_pkg.egg-info/SOURCES.txt'
+[0.875s] running build
+[0.875s] running build_py
+[0.875s] running install
+[0.875s] running install_lib
+[0.876s] running install_data
+[0.877s] running install_egg_info
+[0.878s] removing '/home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.879s] Copying ../../build/catchall_py_pkg/catchall_py_pkg.egg-info to /home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages/catchall_py_pkg-0.0.0-py3.10.egg-info
+[0.880s] running install_scripts
+[0.896s] Installing turtle_controller script to /home/varun/ros2_ws/install/catchall_py_pkg/lib/catchall_py_pkg
+[0.896s] Installing turtle_spawner script to /home/varun/ros2_ws/install/catchall_py_pkg/lib/catchall_py_pkg
+[0.896s] writing list of installed files to '/home/varun/ros2_ws/build/catchall_py_pkg/install.log'
+[0.909s] Invoked command in '/home/varun/ros2_ws/src/catchall_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/varun/ros2_ws/install/catchall_interfaces:/home/varun/ros2_ws/install/my_robot_interfaces:/home/varun/ros2_ws/install/my_robot_bringup LD_LIBRARY_PATH=/home/varun/ros2_ws/install/catchall_interfaces/lib:/home/varun/ros2_ws/install/my_robot_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/varun/ros2_ws/build/catchall_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/varun/ros2_ws/install/catchall_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/catchall_py_pkg build --build-base /home/varun/ros2_ws/build/catchall_py_pkg/build install --record /home/varun/ros2_ws/build/catchall_py_pkg/install.log --single-version-externally-managed install_data

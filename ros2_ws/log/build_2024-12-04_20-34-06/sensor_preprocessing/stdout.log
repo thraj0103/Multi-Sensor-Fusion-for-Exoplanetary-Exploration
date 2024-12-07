@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/sensor_preprocessing/sensor_preprocessing.egg-info
+writing ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/PKG-INFO
+writing dependency_links to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/dependency_links.txt
+writing entry points to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/entry_points.txt
+writing requirements to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/requires.txt
+writing top-level names to ../../build/sensor_preprocessing/sensor_preprocessing.egg-info/top_level.txt
+writing manifest file '../../build/sensor_preprocessing/sensor_preprocessing.egg-info/SOURCES.txt'
+reading manifest file '../../build/sensor_preprocessing/sensor_preprocessing.egg-info/SOURCES.txt'
+writing manifest file '../../build/sensor_preprocessing/sensor_preprocessing.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/varun/ros2_ws/build/sensor_preprocessing/build
+creating /home/varun/ros2_ws/build/sensor_preprocessing/build/lib
+creating /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+copying sensor_preprocessing/camera_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+copying sensor_preprocessing/__init__.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+copying sensor_preprocessing/imu_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+copying sensor_preprocessing/odometry_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+copying sensor_preprocessing/lidar_preprocessing.py -> /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing
+running install
+running install_lib
+creating /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/camera_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/__init__.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/imu_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/odometry_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+copying /home/varun/ros2_ws/build/sensor_preprocessing/build/lib/sensor_preprocessing/lidar_preprocessing.py -> /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing
+byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/camera_preprocessing.py to camera_preprocessing.cpython-310.pyc
+byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/imu_preprocessing.py to imu_preprocessing.cpython-310.pyc
+byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/odometry_preprocessing.py to odometry_preprocessing.cpython-310.pyc
+byte-compiling /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing/lidar_preprocessing.py to lidar_preprocessing.cpython-310.pyc
+running install_data
+creating /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index
+creating /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index/resource_index
+creating /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index/resource_index/packages
+copying resource/sensor_preprocessing -> /home/varun/ros2_ws/install/sensor_preprocessing/share/ament_index/resource_index/packages
+copying package.xml -> /home/varun/ros2_ws/install/sensor_preprocessing/share/sensor_preprocessing
+running install_egg_info
+Copying ../../build/sensor_preprocessing/sensor_preprocessing.egg-info to /home/varun/ros2_ws/install/sensor_preprocessing/lib/python3.10/site-packages/sensor_preprocessing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+Installing imu_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+Installing lidar_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+Installing odom_preprocessing script to /home/varun/ros2_ws/install/sensor_preprocessing/lib/sensor_preprocessing
+writing list of installed files to '/home/varun/ros2_ws/build/sensor_preprocessing/install.log'

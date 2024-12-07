@@ -1,0 +1,6 @@
+[console_scripts]
+camera_preprocessing = sensor_preprocessing.camera_preprocessing:main
+imu_preprocessing = sensor_preprocessing.imu_preprocessing:main
+lidar_preprocessing = sensor_preprocessing.lidar_preprocessing:main
+odom_preprocessing = sensor_preprocessing.odometry_preprocessing:main
+

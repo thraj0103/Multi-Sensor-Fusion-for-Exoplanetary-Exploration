@@ -1,0 +1,16 @@
+ekf_filter_node:
+  ros__parameters:
+    frequency: 50.0  # Hz, frequency of state updates
+    sensor_timeout: 0.1  # Max allowable delay for sensor data (seconds)
+    two_d_mode: true  # If true, ignores Z-axis data
+    publish_tf: true  # Publish transform between `odom` and `base_link`
+
+    # Odometry
+    odom0: /filtered_odom
+    odom0_config: [true, true, false,  false, false, false,  true, true, false,  false, false, false]
+    # X, Y position and velocity
+
+    # IMU
+    imu0: /filtered_imu
+    imu0_config: [false, false, false,  true, true, true,  false, false, false,  true, true, true]
+    # Roll, pitch, yaw orientation and angular velocity

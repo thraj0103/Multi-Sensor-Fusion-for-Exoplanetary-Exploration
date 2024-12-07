@@ -1,0 +1,4 @@
+[console_scripts]
+turtle_controller = catchall_py_pkg.turtle_controller:main
+turtle_spawner = catchall_py_pkg.turtle_spawner:main
+
